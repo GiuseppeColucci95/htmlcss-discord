@@ -547,20 +547,10 @@ body {
   }
 }
 
-.waves {
-  height: 5rem;
-  background-repeat: repeat-x;
-  background-image: url('../img/wave.svg');
-  background-size: cover;
-  background-position: center center;
-  background-color: var(--bg-lighter-color);
+.wave-1hkxOo {
+  background-color: var(--bg-light-color);
 }
 
-.waves-light {
-  height: 5rem;
-  background-repeat: repeat-x;
-  background-image: url('../img/wave.svg');
-  background-size: cover;
-  background-position: center center;
-  background-color: var(--bg-light-color);
+.wave-1hkxOo-2 {
+  background-color: var(--bg-lighter-color);
 }
