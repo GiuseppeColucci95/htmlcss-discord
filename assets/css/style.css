@@ -375,7 +375,7 @@ body {
   background-color: var(--bg-light-color);
 
   .w-70 {
-    padding: 17rem 0;
+    padding: 12rem 0;
   }
 
   .w-40 {
@@ -427,12 +427,15 @@ body {
   background-color: var(--bg-light-color);
 
   .w-70 {
-    padding-top: 17rem;
+    padding-top: 12rem;
     padding-bottom: 8rem;
 
     .stars {
       background-image: url('../img/stars.svg');
-      background-size: cover;
+      background-size: contain;
+      background-repeat: no-repeat;
+
+      padding: 3rem;
     }
   }
 
@@ -457,7 +460,6 @@ body {
   h3 {
     font-size: 2rem;
     color: var(--contacts-bg-color);
-    margin-bottom: 3rem;
   }
 
   #download-tech {
@@ -543,4 +545,22 @@ body {
       padding: 0.5rem 1rem;
     }
   }
+}
+
+.waves {
+  height: 5rem;
+  background-repeat: repeat-x;
+  background-image: url('../img/wave.svg');
+  background-size: cover;
+  background-position: center center;
+  background-color: var(--bg-lighter-color);
+}
+
+.waves-light {
+  height: 5rem;
+  background-repeat: repeat-x;
+  background-image: url('../img/wave.svg');
+  background-size: cover;
+  background-position: center center;
+  background-color: var(--bg-light-color);
 }
