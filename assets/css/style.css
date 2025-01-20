@@ -140,6 +140,10 @@
   display: flex;
 }
 
+.fd-c {
+  flex-direction: column;
+}
+
 .jc-c {
   justify-content: center;
 }
@@ -392,6 +396,7 @@ body {
 }
 
 #fandom-section {
+
   .w-70 {
     padding: 5rem 0;
 
@@ -415,5 +420,52 @@ body {
       }
     }
 
+  }
+}
+
+#technology-section {
+  background-color: var(--bg-light-color);
+
+  .w-70 {
+    padding-top: 17rem;
+    padding-bottom: 8rem;
+
+    .stars {
+      background-image: url('../img/stars.svg');
+      background-size: cover;
+    }
+  }
+
+  .section-h2 {
+    font-size: 3.3rem;
+    color: var(--contacts-bg-color);
+  }
+
+  .section-p {
+    text-align: center;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    margin-top: 1rem;
+    padding: 0 6rem;
+  }
+
+  img {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  h3 {
+    font-size: 2rem;
+    color: var(--contacts-bg-color);
+    margin-bottom: 3rem;
+  }
+
+  #download-tech {
+    font-size: 1.5rem;
+    color: var(--bg-lighter-color);
+    background-color: var(--footer-btn-color);
+    border: none;
+    border-radius: 2rem;
+    padding: 1rem 2rem;
   }
 }
