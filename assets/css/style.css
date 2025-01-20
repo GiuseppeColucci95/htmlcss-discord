@@ -469,3 +469,78 @@ body {
     padding: 1rem 2rem;
   }
 }
+
+#site_footer {
+  background-color: var(--contacts-bg-color);
+  color: var(--bg-lighter-color);
+
+  #footer-container {
+    padding-top: 5rem;
+  }
+
+  h2 {
+    padding-right: 4rem;
+    padding-bottom: 2rem;
+    color: var(--footer-main-color);
+    font-size: 2rem;
+  }
+
+  #language {
+    height: 20px;
+    width: 30px;
+  }
+
+  select {
+    background-color: transparent;
+    border: none;
+    color: var(--bg-lighter-color);
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  i {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+  }
+
+  .w-70 {
+    padding-top: 0.5rem;
+
+    h4 {
+      color: var(--footer-main-color);
+      margin-bottom: 0.5rem;
+    }
+
+    ul {
+      list-style: none;
+
+      a {
+        text-decoration: none;
+        color: var(--bg-lighter-color);
+        line-height: 2rem;
+        font-weight: 500;
+      }
+    }
+  }
+
+  hr {
+    width: 70%;
+    margin: 2rem auto;
+    border-color: var(--footer-main-color);
+  }
+
+  #footer-second {
+    padding-bottom: 5rem;
+
+
+
+    #register {
+      font-size: 1rem;
+      color: var(--bg-lighter-color);
+      background-color: var(--footer-btn-color);
+      border: none;
+      border-radius: 2rem;
+      padding: 0.5rem 1rem;
+    }
+  }
+}
