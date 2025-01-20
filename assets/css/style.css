@@ -285,7 +285,7 @@ body {
     }
   }
 
-  #header-login {
+  button {
     padding: 0.75rem 1rem;
     border: none;
     border-radius: 2rem;
@@ -296,7 +296,7 @@ body {
   }
 }
 
-#jumbotron-section {
+#jumbotron {
   background-image: url('../img/jumbo.png');
   background-size: cover;
   min-height: 625px;
@@ -343,7 +343,7 @@ body {
   }
 }
 
-#invite-only-section {
+#invite-only {
 
   .w-70 {
     padding: 5rem 0;
@@ -356,22 +356,21 @@ body {
       padding-top: 8rem;
       padding-left: 8rem;
 
-      .section-h2 {
+      h2 {
         font-size: 3.5rem;
         color: var(--contacts-bg-color);
       }
 
-      .section-p {
+      p {
         font-size: 1.4rem;
         line-height: 2rem;
         margin-top: 1rem;
       }
     }
-
   }
 }
 
-#community-section {
+#community {
   background-color: var(--bg-light-color);
 
   .w-70 {
@@ -382,12 +381,12 @@ body {
     padding-top: 2rem;
     padding-right: 8rem;
 
-    .section-h2 {
+    h2 {
       font-size: 3.5rem;
       color: var(--contacts-bg-color);
     }
 
-    .section-p {
+    p {
       font-size: 1.4rem;
       line-height: 2rem;
       margin-top: 1rem;
@@ -395,7 +394,7 @@ body {
   }
 }
 
-#fandom-section {
+#fandom {
 
   .w-70 {
     padding: 5rem 0;
@@ -408,12 +407,12 @@ body {
       padding-top: 1rem;
       padding-left: 8rem;
 
-      .section-h2 {
+      h2 {
         font-size: 3.5rem;
         color: var(--contacts-bg-color);
       }
 
-      .section-p {
+      p {
         font-size: 1.4rem;
         line-height: 2rem;
         margin-top: 1rem;
@@ -423,7 +422,7 @@ body {
   }
 }
 
-#technology-section {
+#technology {
   background-color: var(--bg-light-color);
 
   .w-70 {
@@ -439,12 +438,12 @@ body {
     }
   }
 
-  .section-h2 {
+  h2 {
     font-size: 3.3rem;
     color: var(--contacts-bg-color);
   }
 
-  .section-p {
+  p {
     text-align: center;
     font-size: 1.4rem;
     line-height: 2rem;
