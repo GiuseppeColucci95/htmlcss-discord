@@ -152,6 +152,10 @@
   justify-content: space-between;
 }
 
+.jc-sa {
+  justify-content: space-around;
+}
+
 .ai-c {
   align-items: center;
 }
@@ -300,7 +304,6 @@ body {
     font-weight: 600;
     padding-top: 7rem;
     padding-bottom: 3rem;
-
   }
 
   p {
@@ -334,4 +337,30 @@ body {
       margin-left: 0.75rem;
     }
   }
+}
+
+#invite-only-section {
+
+  .w-70 {
+    padding: 5rem 0;
+
+    .w-40 {
+      padding-top: 3rem;
+      padding-left: 8rem;
+
+      .section-h2 {
+        font-size: 3.5rem;
+        color: var(--contacts-bg-color);
+      }
+
+      .section-p {
+        font-size: 1.25rem;
+        line-height: 2rem;
+        margin-top: 2rem;
+      }
+    }
+
+  }
+
+
 }
