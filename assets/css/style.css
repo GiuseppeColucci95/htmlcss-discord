@@ -208,7 +208,9 @@ body {
     }
   }
 
-  button {
+  a.button {
+    text-decoration: none;
+    color: var(--contacts-bg-color);
     padding: 0.75rem 1rem;
     border: none;
     border-radius: 2rem;
@@ -220,6 +222,7 @@ body {
 
 #jumbotron {
   background-image: url('../img/jumbo.png');
+  background-position: center;
   background-size: cover;
   min-height: 625px;
 
@@ -246,6 +249,7 @@ body {
     padding-top: 2rem;
 
     .jumbo-btn {
+      text-decoration: none;
       font-size: 1.5rem;
       padding: 1rem 2rem;
       border: none;
@@ -255,6 +259,7 @@ body {
     #download {
       background-color: var(--bg-lighter-color);
       margin-right: 0.75rem;
+      color: var(--contacts-bg-color);
     }
 
     #open {
@@ -382,6 +387,7 @@ body {
     }
 
     #download-tech {
+      text-decoration: none;
       font-size: 1.5rem;
       color: var(--bg-lighter-color);
       background-color: var(--footer-btn-color);
@@ -456,6 +462,7 @@ body {
     padding-bottom: 5rem;
 
     #register {
+      text-decoration: none;
       font-size: 1rem;
       color: var(--bg-lighter-color);
       background-color: var(--footer-btn-color);
